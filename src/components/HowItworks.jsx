@@ -7,8 +7,10 @@ import { NavLink } from "react-router-dom";
 const HowItworks = () => {
   return (
     <>
-      <h1 className="text-4xl">How it Works?</h1>
-      <div className="w-[13rem] h-[3.5px] bg-[#EBB5BB]"></div>
+      <div className="md:p-[4rem]">
+        <h1 className="text-4xl md:text-5xl">How it Works?</h1>
+      <div className="w-[13rem] h-[3.5px] bg-[#EBB5BB] md:w-[17.5rem]"></div>
+      </div>
       <div className="flex flex-col justify-center items-center">
         <div className="flex justify-center md:p-[5rem]">
           <video
@@ -51,7 +53,7 @@ const HowItworks = () => {
           
         </div>
         <div>
-       <NavLink to="#"><button className="bg-[#147AA9] text-4xl pr-4 pl-8 pt-2 pb-4 rounded-[7px] mt-7 text-white">Start Membership</button></NavLink>   
+       <NavLink to="#"><button className="bg-[#147AA9] text-4xl pr-4 pl-8 pt-2 pb-4 rounded-[7px] mt-7 text-white cursor-pointer">Start Membership</button></NavLink>   
         </div>
       </div>
     </>
