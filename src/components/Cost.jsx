@@ -4,9 +4,6 @@ const Cost = () => {
   const [range, setRange] = useState(0)
   const[spentVal,setSpentVal] = useState(12)
   const [tinyVal,setTinyVal] = useState(4)
-  const steps = [0, 20, 40, 60, 80, 100]
-  const spent = [12,24,36,48,60,72]
-  const tiny = [4,8,12,16,20,24]
   const handleClick = (value,first,second) => {
     setRange(value)
     setSpentVal(first)
@@ -15,11 +12,14 @@ const Cost = () => {
   
   return (
     <div className='mt-5 flex flex-col items-center justify-center text-center text-xl gap-4'>
-      <h1 className='text-3xl text-[#3AB7A6] md:text-4xl'>DID YOU KNOW?</h1>
+      <div className='md:w-1/2 w-full flex flex-col gap-3'>
+ <h1 className='text-3xl text-[#3AB7A6] md:text-4xl'>DID YOU KNOW?</h1>
       <p>
         Babies typically outgrow 6 or more sizes in their first year! Add in 3 different seasons, special occasions, and several outfit changes daily, now that's a LOT of clothes!
       </p>
-      <div className='w-full border-2 flex flex-col items-center md:w-[80%]'>
+      </div>
+     
+      <div className='w-full  flex flex-col items-center md:w-[80%]'>
         <input 
           type="range" 
           className='w-[95%]' 
@@ -56,7 +56,7 @@ const Cost = () => {
           </div>
         </div>
       </div>
-      <div className='flex w-full items-center justify-center gap-5'>
+      <div className='flex w-full items-center justify-center gap-5 md:gap-7'>
         <button className='bg-[#51BFB1] rounded-xl pr-4 pl-4 pt-2 pb-2'>Average Spent: ₹{spentVal}K</button>
         <button className='bg-[#E9817F] rounded-xl pr-4 pl-4 pt-2 pb-2'>TinyClo: ₹{tinyVal}K</button>
       </div>
