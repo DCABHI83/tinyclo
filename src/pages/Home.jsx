@@ -7,6 +7,7 @@ import MoreCards from '../components/MoreCards'
 import MemberShip from '../components/MemberShip'
 import Clean from '../components/Clean'
 import Fetured from '../components/Fetured'
+import Contatct from '../components/Contatct'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
   <MemberShip/>
   <Clean/>
   <Fetured/>
+  <Contatct/>
   </div>
  
   </>
