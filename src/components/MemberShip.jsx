@@ -11,7 +11,7 @@ const MemberShip = () => {
       <div className="w-[17rem] h-[3.5px] bg-[#EBB5BB] md:w-[22.5rem]"></div>
    </div>
    <div className='p-4 flex flex-col md:flex-row items-center md:justify-around gap-5'>
-    <div className='relative shadow-slate-950 shadow-lg shadow-inset rounded-xl p-2 md:w-[39%] transform hover:scale-110 transition duration-300'>
+    <div className='relative shadow-slate-950 shadow-lg shadow-inset rounded-xl p-2 md:w-[39%] transform hover:scale-110 transition duration-300 cursor-pointer'>
     <div className='absolute top-5'>
         <img className='w-[58%] md:w-[75%]' src={membership1} alt="image" />
     </div>
@@ -24,7 +24,7 @@ const MemberShip = () => {
         <button className='bg-[#1A95CF] text-2xl text-white p-2 rounded'>Choose Membership</button>
     </div>
    </div>
-    <div className='relative shadow-slate-950 shadow-lg shadow-inset rounded-xl p-2 md:w-[39%] transform hover:scale-110 transition duration-300'>
+    <div className='relative shadow-slate-950 shadow-lg shadow-inset rounded-xl p-2 md:w-[39%] transform hover:scale-110 transition duration-300 cursor-pointer'>
     <div className='absolute top-8'>
         <img className='w-[60%] md:w-[75%]' src={membership2} alt="image" />
     </div>

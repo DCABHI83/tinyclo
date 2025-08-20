@@ -26,7 +26,7 @@ const MoreCards = () => {
   <div className="flex flex-col justify-center items-center w-full gap-7 md:flex-row md:cursor-pointer md:mt-7 md:gap-7">
  {arr.map((curElem,index)=>{
     return(
-        <div className="flex flex-col justify-center items-center w-[78%] p-4 gap-4 rounded-2xl shadow-slate-950 shadow-lg shadow-inset md:w-[25%] ransform hover:scale-110 transition duration-300 md:gap-5" key={index}>
+        <div className="flex flex-col justify-center items-center w-[78%] p-4 gap-4 rounded-2xl shadow-slate-950 shadow-lg shadow-inset md:w-[25%] transform hover:scale-110 transition duration-300 md:gap-5" key={index}>
             <img className="" src={curElem.src} alt="image" />
             <h2 className="text-2xl font-bold">{curElem.text}</h2>
            <div className="text-center text-xl"> <p>{curElem.para}</p></div>
