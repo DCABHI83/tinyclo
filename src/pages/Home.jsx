@@ -9,6 +9,7 @@ import Clean from '../components/Clean'
 import Fetured from '../components/Fetured'
 import Contatct from '../components/Contatct'
 
+
 const Home = () => {
   return (
   <>
