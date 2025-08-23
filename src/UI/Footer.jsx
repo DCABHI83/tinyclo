@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col gap-12 md:gap-[10rem]">
             <div className="flex flex-col">
               <h2 className="text-xl font-bold">Our Company</h2>
-              <NavLink className="cursor-pointer" to="#">
+              <NavLink className="cursor-pointer" to="/blogs">
                 Blog
               </NavLink>
               <NavLink className="cursor-pointer" to="#">

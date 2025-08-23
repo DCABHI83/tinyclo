@@ -7,6 +7,9 @@ import About from './pages/About'
 import Store from './pages/Store'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
+import Blog from './pages/Blog'
+import SignUp from './pages/SignUp'
+import LogIn from './pages/LogIn'
 
 const App = () => {
   const router = createBrowserRouter([
@@ -36,6 +39,18 @@ const App = () => {
     {
       path:"/contact-us",
       element:<Contact/>
+    },
+    {
+      path:'/blogs',
+      element:<Blog/>
+    },
+    {
+      path:"/register",
+      element:<SignUp/>
+    },
+    {
+      path:"/login",
+      element:<LogIn/>
     }
     
     ]
