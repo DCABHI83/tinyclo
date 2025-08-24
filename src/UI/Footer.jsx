@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col md:gap-4">
             <h2 className="text-xl font-bold">Products</h2>
-            <NavLink className="cursor-pointer" to="#">
+            <NavLink className="cursor-pointer" to="/subscription">
               Subscription Plans
             </NavLink>
             <NavLink className="cursor-pointer" to="#">
