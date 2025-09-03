@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Aqua Dream Princess Dress",
+    "section": "Girls",
+    "buyPrice": 2499,
+    "rentPrice": 833,
+    "image": "https://picsum.photos/300?random=1",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "Royal Blue Prince Suit",
+    "section": "Boys",
+    "buyPrice": 2699,
+    "rentPrice": 899,
+    "image": "https://picsum.photos/300?random=2",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "name": "Golden Bloom Ruffle Party Dress",
+    "section": "Girls",
+    "buyPrice": 2799,
+    "rentPrice": 933,
+    "image": "https://picsum.photos/300?random=3",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "name": "Smart Formal Blazer Set",
+    "section": "Boys",
+    "buyPrice": 2999,
+    "rentPrice": 999,
+    "image": "https://picsum.photos/300?random=4",
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "name": "Cuddly Teddy Bear",
+    "section": "Toys",
+    "buyPrice": 999,
+    "rentPrice": 333,
+    "image": "https://picsum.photos/300?random=5",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "name": "Remote Control Car",
+    "section": "Toys",
+    "buyPrice": 1599,
+    "rentPrice": 533,
+    "image": "https://picsum.photos/300?random=6",
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "name": "Pink Sparkle Feather Gown",
+    "section": "Girls",
+    "buyPrice": 2699,
+    "rentPrice": 899,
+    "image": "https://picsum.photos/300?random=7",
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "name": "Leather School Backpack",
+    "section": "Accessories",
+    "buyPrice": 1299,
+    "rentPrice": 433,
+    "image": "https://picsum.photos/300?random=8",
+    "quantity": 1
+  },
+  {
+    "id": 9,
+    "name": "Sunflower Ruffle Bloom Dress",
+    "section": "Girls",
+    "buyPrice": 2499,
+    "rentPrice": 833,
+    "image": "https://picsum.photos/300?random=9",
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "name": "Boys Casual Summer Set",
+    "section": "Boys",
+    "buyPrice": 1899,
+    "rentPrice": 633,
+    "image": "https://picsum.photos/300?random=10",
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "name": "Toy Building Blocks Set",
+    "section": "Toys",
+    "buyPrice": 1399,
+    "rentPrice": 466,
+    "image": "https://picsum.photos/300?random=11",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "name": "Stylish Kids Sunglasses",
+    "section": "Accessories",
+    "buyPrice": 799,
+    "rentPrice": 266,
+    "image": "https://picsum.photos/300?random=12",
+    "quantity": 1
+  },
+  {
+    "id": 13,
+    "name": "Scarlet Rose Couture Dress",
+    "section": "Girls",
+    "buyPrice": 2999,
+    "rentPrice": 999,
+    "image": "https://picsum.photos/300?random=13",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "name": "Denim Jacket with Hoodie",
+    "section": "Boys",
+    "buyPrice": 1599,
+    "rentPrice": 533,
+    "image": "https://picsum.photos/300?random=14",
+    "quantity": 1
+  },
+  {
+    "id": 15,
+    "name": "Plush Stuffed Elephant",
+    "section": "Toys",
+    "buyPrice": 1199,
+    "rentPrice": 399,
+    "image": "https://picsum.photos/300?random=15",
+    "quantity": 1
+  },
+  {
+    "id": 16,
+    "name": "Fashionable Hairband Set",
+    "section": "Accessories",
+    "buyPrice": 499,
+    "rentPrice": 166,
+    "image": "https://picsum.photos/300?random=16",
+    "quantity": 1
+  },
+  {
+    "id": 17,
+    "name": "Royal Purple Enchanted Gown",
+    "section": "Girls",
+    "buyPrice": 2799,
+    "rentPrice": 933,
+    "image": "https://picsum.photos/300?random=17",
+    "quantity": 1
+  },
+  {
+    "id": 18,
+    "name": "Boys Winter Coat",
+    "section": "Boys",
+    "buyPrice": 2499,
+    "rentPrice": 833,
+    "image": "https://picsum.photos/300?random=18",
+    "quantity": 1
+  },
+  {
+    "id": 19,
+    "name": "Mini Toy Kitchen Set",
+    "section": "Toys",
+    "buyPrice": 1899,
+    "rentPrice": 633,
+    "image": "https://picsum.photos/300?random=19",
+    "quantity": 1
+  },
+  {
+    "id": 20,
+    "name": "Trendy Kids Watch",
+    "section": "Accessories",
+    "buyPrice": 999,
+    "rentPrice": 333,
+    "image": "https://picsum.photos/300?random=20",
+    "quantity": 1
+  }
+]
