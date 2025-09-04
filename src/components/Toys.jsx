@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../Context/productsApi";
+import { NavLink } from "react-router-dom";
 
 const Toys = () => {
   const products = useContext(ProductContext);
@@ -24,15 +25,15 @@ const Toys = () => {
             {item.name}
           </h3>
 
-          {/* Action Buttons */}
+          {/* Action NavLinks */}
           <div className="mt-3 flex flex-col gap-2 w-full">
-            <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200">
+            <NavLink to={`/product-details/${item.id}`} className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200">
               Buy Now @₹{item.buyPrice}
-            </button>
+            </NavLink>
 
-            <button className="w-full px-4 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500 transition duration-200">
+            <NavLink to={`/product-details/${item.id}`} className="w-full px-4 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500 transition duration-200">
               Rent @₹{item.rentPrice}
-            </button>
+            </NavLink>
           </div>
         </div>
       ))}

@@ -11,6 +11,8 @@ import Blog from './pages/Blog'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn'
 import Subscription from './pages/Subscription'
+import Cart from './pages/Cart'
+import ProductDetail from './pages/ProductDetail'
 
 const App = () => {
   const router = createBrowserRouter([
@@ -56,6 +58,14 @@ const App = () => {
     {
       path:"/subscription",
       element:<Subscription/>
+    },
+    {
+      path:"/cart/:id",
+      element:<Cart/>
+    },
+    {
+      path:"/product-details/:id",
+      element:<ProductDetail/>
     }
     
     ]

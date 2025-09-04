@@ -76,9 +76,9 @@ const Header = () => {
         </div>
 
         <div className="hidden md:flex text-2xl gap-2 text-[#838384] ">
-          <div>
+          <NavLink to='/cart'>
             <MdOutlineShoppingCart />
-          </div>
+          </NavLink>
           <div>
             <CgProfile />
           </div>
