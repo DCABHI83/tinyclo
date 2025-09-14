@@ -60,7 +60,7 @@ const App = () => {
       element:<Subscription/>
     },
     {
-      path:"/cart/:id",
+      path:"/cart",
       element:<Cart/>
     },
     {
