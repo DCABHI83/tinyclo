@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import baby from "../assets/baby.png"
-const Contatct = () => {
+const Contact = () => {
   const[user,setUser] = useState({
     firstName:"",
     lastName:"",
@@ -72,4 +72,4 @@ const Contatct = () => {
   )
 }
 
-export default Contatct
+export default Contact
