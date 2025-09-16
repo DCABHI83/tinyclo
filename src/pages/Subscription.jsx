@@ -2,7 +2,7 @@ import React from "react";
 import clouds from "../assets/clouds.png";
 import subscription1 from "../assets/subscriptionImg1.png";
 import subscription2 from "../assets/subscriptionImg2.png";
-import Included from "../components/included";
+import Included from "../components/Included";
 import Brands from "../components/Brands";
 const Subscription = () => {
   return (
